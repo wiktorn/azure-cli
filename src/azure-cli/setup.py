@@ -91,7 +91,6 @@ DEPENDENCIES = [
     'azure-mgmt-iothub~=0.12.0',
     'azure-mgmt-iothubprovisioningservices~=0.2.0',
     'azure-mgmt-keyvault~=2.2.0',
-    'azure-mgmt-kusto~=0.3.0',
     'azure-mgmt-loganalytics~=0.7.0',
     'azure-mgmt-managedservices~=1.0',
     'azure-mgmt-managementgroups~=0.1',
@@ -137,7 +136,8 @@ DEPENDENCIES = [
     'websocket-client~=0.56.0',
     'xmltodict~=0.12',
     'javaproperties==0.5.1',
-    'jsondiff==1.2.0'
+    'jsondiff==1.2.0',
+    'azure-mgmt-kusto~=0.9.0'
 ]
 
 TESTS_REQUIRE = [
